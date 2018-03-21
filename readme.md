@@ -7,6 +7,7 @@ your Mongoose models, and BAM, CRUD endpoints for your model.
 In the models folder there are a few test models.  To get up and running, simply
 
 `$ git clone https://github.com/ggoforth/express-mongoose-api-generator.git`
+
 `$ cd express-mongoose-api-generator && npm install`
 
 Then create a `.env` file with `MONGO_URL=your_mongo_connection_string`.
