@@ -57,7 +57,7 @@ module.exports = (route, model) => {
       const instance = await model.findById(req.params.id);
 
       if (!instance) {
-        const message = `Could not find an instance with id ${req.params.id}`,
+        const message = `Could not find a ${model.modelName} with id ${req.params.id}`,
           error = new Error(message);
         return next(error);
       }
